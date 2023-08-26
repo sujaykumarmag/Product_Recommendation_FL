@@ -34,9 +34,9 @@ cd Product_Recommendation_FL/
 
 ## Usage
 
-1. **Prepare your dataset:** Collect and organize the dataset of product reviews. Each device or server participating in the Federated Learning process should possess a distinct subset of this dataset.
+1. **Prepare your dataset:** Collect and organize the dataset of product reviews. Each device or server participating in the Federated Learning process should possess a distinct subset of this dataset from making_dataset.ipynb
 
-2. **Configure Federated Learning settings:** Open the `config.py` file and modify the configuration parameters to suit your project's needs. This includes specifying the communication strategy, defining the model architecture, and setting the relevant training parameters.
+2. **Configure Federated Learning settings:** Open the `pre_process.py` file and modify the configuration parameters to suit your project's needs. This includes specifying the communication strategy, defining the model architecture, and setting the relevant training parameters.
 
-3. **Initiate Federated Learning training:** Run the following command to start the Federated Learning training process:
+3. **Initiate Federated Learning training:** Run the FedAdamAverage Python Notebook to start the Federated Learning training process:
 
